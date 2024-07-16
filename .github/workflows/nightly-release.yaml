@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os:       [ubuntu-18.04, ubuntu-24.04]
+        os:       [ubuntu-22.04, ubuntu-24.04]
         mode:     [newlib]
         target:   [rv64gc-ilp32d]
         compiler: [gcc]
